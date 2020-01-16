@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40045324-92eb-45d8-920a-7f294c2f1d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Cookies/Cookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final Grade/FinalGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GitHub-Directory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GitHub-Directory.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Grade/finalGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalGrade/FinalGrade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578586312590</updated>
       <workItem from="1578586317731" duration="649000" />
-      <workItem from="1579186371998" duration="5098000" />
+      <workItem from="1579186371998" duration="5383000" />
     </task>
     <task id="LOCAL-00001" summary="initial version">
       <created>1578586684173</created>
@@ -116,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578586945727</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="week 2">
+      <created>1579191713381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579191713381</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial version" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial version" />
+    <MESSAGE value="week 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="558" y="177" key="#Deployment" timestamp="1578586892712">
@@ -139,10 +144,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578586435834" />
-    <state x="493" y="115" key="CommitChangelistDialog2" timestamp="1579191680156">
+    <state x="493" y="115" key="CommitChangelistDialog2" timestamp="1579191711894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="493" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579191680156" />
+    <state x="493" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579191711894" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1579191647700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

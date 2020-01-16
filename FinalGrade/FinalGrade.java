@@ -1,8 +1,8 @@
-package finalGrade;
+package FinalGrade;
 
 import java.util.Scanner;
 
-public class finalGrade{
+public class FinalGrade{
 
         public static void main(String[] args) {
 
