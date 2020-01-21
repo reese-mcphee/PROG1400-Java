@@ -40,21 +40,22 @@ public class FinalGrade{
 
                 float lowestGrade = 100.0f;
 
-                if (assignment1 > lowestGrade) {
+                if (assignment1 < lowestGrade) {
                     lowestGrade = assignment1;
                 }
-                if (assignment2 > lowestGrade) {
+                if (assignment2 < lowestGrade) {
                     lowestGrade = assignment2;
                 }
-                if (assignment3 > lowestGrade) {
+                if (assignment3 < lowestGrade) {
                     lowestGrade = assignment3;
                 }
-                if (assignment4 > lowestGrade) {
+                if (assignment4 < lowestGrade) {
                     lowestGrade = assignment4;
                 }
-                if (assignment5 > lowestGrade) {
+                if (assignment5 < lowestGrade) {
                     lowestGrade = assignment5;
                 }
+
                 finalGrade = assignment6;
                     if (assignment1 != lowestGrade) {
                         finalGrade += assignment1;
@@ -80,7 +81,9 @@ public class FinalGrade{
                 finalGrade =
                         (assignment1 + assignment2 + assignment3 +
                                 assignment4 + assignment5 /* + assignment6 */) / 5;
-                System.out.println("Your final grade is: " + finalGrade);
+
             }
+
+            System.out.println("Your final grade is: " + finalGrade);
         }
 }
