@@ -13,19 +13,18 @@ public class CountCharacters {
 
         System.out.print("Enter a string: ");
         String str = s.nextLine();
-
-        System.out.print("Enter a letter: ");
         String input = s.nextLine();
-        char ch = input.charAt(0);
 
-        int count = 0;
-        for (int i=0; i<str.length(); i++) {
-            if (ch == str.charAt(i)) {
-                count++;
-            }
+        for (int i = 0; i < str.length(); i++) {
+            char ch = input.charAt(0);
+            if (ch >= 'a' && ch <= 'm') ch += 13;
+                else if (ch >= 'A' && ch <= 'M') ch += 13;
+                else if (ch >= 'n' && ch <= 'z') ch -= 13;
+                else if (ch >= 'N' && ch <= 'Z') ch -= 13;
+            System.out.print(ch);
+            System.out.println("Decoded message: ");
+            System.out.println("--- --- --- --- ---");
+            System.out.println(ch);
         }
-
-        System.out.println("There are " + count + " '" + ch + "'s in" + str);
     }
-
 }
